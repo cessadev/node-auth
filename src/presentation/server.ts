@@ -9,7 +9,7 @@ export class Server {
     private readonly port: number;
 
     constructor (options: Options) {
-        const { port = 3000} = options;
+        const { port = 3000 } = options;
         this.port = port;
     }
 
